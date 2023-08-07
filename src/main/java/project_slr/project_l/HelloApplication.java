@@ -19,7 +19,12 @@ public class HelloApplication extends Application implements EventHandler <Actio
         BorderPane borderPane = new BorderPane();
         Button button = new Button("Click Me");
         borderPane.setCenter(button);
-        button.setOnAction(this);
+        button.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent actionEvent) {
+                System.out.println("Hello!!!!!");
+            }
+        });
         Scene scene = new Scene(borderPane, 320, 240);
         stage.setTitle("Hello!");
         stage.setScene(scene);
