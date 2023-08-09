@@ -18,13 +18,16 @@ public class HelloApplication extends Application implements EventHandler <Actio
         //FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
         BorderPane borderPane = new BorderPane();
         Button button = new Button("Click Me");
+        Button button2 = new Button("Click Me");
         borderPane.setCenter(button);
+        borderPane.setBottom(button2);
         button.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
                 System.out.println("Hello!!!!!");
             }
         });
+        button2.setOnAction(this);
         Scene scene = new Scene(borderPane, 320, 240);
         stage.setTitle("Hello!");
         stage.setScene(scene);
