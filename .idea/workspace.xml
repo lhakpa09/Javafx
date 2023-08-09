@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4540cca5-70ea-4c1c-b606-9fcafabdf83c" name="Changes" comment="" />
+    <list default="true" id="4540cca5-70ea-4c1c-b606-9fcafabdf83c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/project_slr/project_l/layoutmanagers/VBoxDemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
