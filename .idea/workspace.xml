@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4540cca5-70ea-4c1c-b606-9fcafabdf83c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/project_slr/project_l/layoutmanagers/TilePaneDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project_slr/project_l/layoutmanagers/GridPaneDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
